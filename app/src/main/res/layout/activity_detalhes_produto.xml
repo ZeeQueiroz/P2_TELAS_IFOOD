@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detalhesProduto"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imgPizza"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/pizza1_foreground"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtNomePizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza Portuguesa"
+        android:textSize="22sp"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experimente a nossa versão da clássica portuguesa! Com uma base de molho de tomate artesanal, coberta com mussarela, presunto, ovos cozidos, cebola roxa e azeitonas pretas. Um sabor inesquecível!"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 43,00"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alguma observação?"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ex: Tirar a cebola, maionese à parte etc."
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:background="@drawable/fundo_card"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/botaoAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar ao Carrinho"
+        android:fontFamily="monospace"
+        android:backgroundTint="#EA1D2C"/>
+</LinearLayout>

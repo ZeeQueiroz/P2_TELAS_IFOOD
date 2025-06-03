@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Prova2" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#EA1D2C</item>
+    </style>
+
+    <style name="Theme.Prova2" parent="Base.Theme.Prova2" />
+</resources>

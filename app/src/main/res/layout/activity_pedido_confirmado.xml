@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".pedidoConfirmado">
+
+    <ImageView
+        android:id="@+id/imagemCarregada"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="16dp"
+        android:text="Pedido Confirmado!"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="8dp"
+        android:text="Nº do Pedido: #1234"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="4dp"
+        android:text="Tempo estimado de entrega: 40 minutos"
+        android:textColor="#555555"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/carregarImagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARREGAR IMAGEM"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#E53935"
+        android:textColor="#FFFFFF"
+        android:onClick="carregarImagem" />
+
+    <Button
+        android:id="@+id/botaoVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar ao Início"
+        android:backgroundTint="#E53935"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
